@@ -1,0 +1,49 @@
+* Pagina Inicial
+home__social
+https://www.linkedin.com/in/donny-hans-duarte-da-costa-831229129/
+https://github.com/SenpaidaTi
+
+home__description
+Sou Dev iniciante mas ja estudo na area faz 4 anos.
+
+
+* ABOUT
+about__description
+Desenvolvedor Web iniciante, atualmente terminando minha primeira Graduação Em Computação e Informatica Pela Universidade Federal do Maranhão, tenho conhecimento google cloud, adoro tecnologia gostaria de trabalhar na Area para Obter experiencia .
+
+about__info-name
+Anos <br> Experiencia
+Completo <br> projeto
+
+
+
+* SERVICES
+services__modal-service
+I develop the user interface.
+Web page development.
+I create ux element interactions.
+I position your company brand.
+
+
+* PORTFOLIO
+portfolio__description
+Site Responsivo a todos os dispositivos, com componentes de interface do usuário e interações animadas.
+
+
+* PROJECT
+project__description
+Contacte-me se tiver alguma observação ou alteração que deve ser feita no meu projeto.
+
+
+* TESTIMONIAL
+testimonial__description
+Alura desafio projeto One #latam.
+
+
+* FOOTER
+footer__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+

@@ -294,12 +294,12 @@
 
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex qualification__active" data-target="#educaçao">
                             <i class="uil uil-graduation-cap qualification__icon"></i>
                             Educação
                         </div>
 
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex" data-target="#trabalho">
                            <i class="uil uil-briefcase-alt qualification__icon"></i>
                             Trabalho
                         </div>
@@ -307,7 +307,7 @@
 
                     <div class="qualification__sections">
                         <!--==================== QUALIFICATION content 1 ====================-->
-                        <div class="qualification__content " data-content id="education">
+                        <div class="qualification__content qualification__active " data-content id="education">
                             <!--==================== QUALIFICATION 1 ====================-->
                             <div class="qualification__data">
                                 <div>
@@ -379,7 +379,7 @@
                                 </div>
                             </div>
                              <!--==================== QUALIFICATION 2 ====================-->
-                             <div class="qualification__data  " data-content id= "work">
+                             <div class="qualification__data  " data-content id = "work">
                                  <div></div>
 
                                  <div>
@@ -409,8 +409,28 @@
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Trabalhos Recentes</span>
 
+                <div class="portfolio__container container">
+                    <div>
+                        <!--==================== PORTFOLIO 1====================-->
+                        <div class="portfolio__content grid">
+                            <img src="img/portfolio1.jpg" alt="" class="porfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Moderno WebSite</h3>
+
+                                <p class="portfolio__description">lorem ipsum lore ipsum lore impsum</p>
+
+                                <a href="" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== PROJECT IN MIND ====================-->

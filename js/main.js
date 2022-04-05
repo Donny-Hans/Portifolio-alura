@@ -52,7 +52,7 @@ function toggleSkills(){
 skillsHeader.forEach((el) =>{
     el.addEventListener('click', toggleSkills)
 })
-/*==================== QUALIFICATION TABS ====================*/
+/*==================== GUIAS DE QUALIFICAÇÃO ====================*/
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
 
@@ -109,7 +109,7 @@ let swiperTestimonial = new Swiper('.testimonial__container',{
 });
 
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+/*==================== LINK SEÇÕES DE ROLAGEM ====================*/
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -129,7 +129,7 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-/*==================== CHANGE BACKGROUND HEADER ====================*/ 
+/*==================== cabeçalho de fundo ====================*/ 
 function scrollHeader(){
     const nav = document.getElementById('header')
     // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
@@ -137,7 +137,7 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*==================== SHOW SCROLL UP ====================*/ 
+/*====================  ROLAGEM PARA CIMA ====================*/ 
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
     // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
@@ -145,7 +145,7 @@ function scrollUp(){
 }
 window.addEventListener('scroll', scrollUp)
 
-/*==================== DARK LIGHT THEME ====================*/ 
+/*==================== TEMA LUZ ESCURO ====================*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'

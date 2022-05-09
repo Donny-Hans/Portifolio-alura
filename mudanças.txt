@@ -1,0 +1,11 @@
+deixa os botoes um do lado do outro
+tira o rolar para baixo
+
+tira a parte final do portfolio
+
+tira também a parte de localização
+
+tira meu nome do footer e tambem tira a cor azul e colocar um branco 
+
+
+deixa os nomes em portugues ja  q nao posso deixa misto blablabla...

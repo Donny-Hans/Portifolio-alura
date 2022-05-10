@@ -9,3 +9,30 @@ tira meu nome do footer e tambem tira a cor azul e colocar um branco
 
 
 deixa os nomes em portugues ja  q nao posso deixa misto blablabla...
+
+
+
+
+
+
+
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Alura-Challenge Codificador</h3>
+                            <p class="portfolio__description">Desafio projeto One Alura-Challenge</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                               Demo
+                               <i class="uil uil-arrow-right button__icon"></i> 
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+
+
+

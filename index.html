@@ -13,15 +13,26 @@
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="css/styles.css">
-
-    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="css/variaveis.css">
+    <link rel="stylesheet" href="css/botao.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/habilidades.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/qualificacao.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+    <link rel="stylesheet" href="css/saibaMais.css">
+    <title>Portfolio Website</title>
 </head>
 
 <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Donny-hans</a>
+            <a href="#" class="nav__logo">Desenvolvedor Front-end</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
@@ -33,19 +44,19 @@
 
                     <li class="nav__item">
                         <a href="#about" class="nav__link ">
-                            <i class="uil uil-user nav__icon"></i> About
+                            <i class="uil uil-user nav__icon"></i> Saiba Mais
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#skills" class="nav__link ">
-                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                            <i class="uil uil-file-alt nav__icon"></i> Habilidades
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#services" class="nav__link ">
-                            <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Trabalho
                         </a>
                     </li>
 
@@ -57,7 +68,7 @@
 
                     <li class="nav__item">
                         <a href="#contact" class="nav__link ">
-                            <i class="uil uil-message nav__icon"></i> Contactme
+                            <i class="uil uil-message nav__icon"></i> Contato
                         </a>
                     </li>
                 </ul>
@@ -122,7 +133,8 @@
                         </a>
                     </div>
                 </div>
-
+                
+                <!--
                 <div class="home__scroll">
                     <a href="#about" class="home__scroll-button button--flex">
                         <i class="uil uil-mouse-alt home__scroll-mouse"></i>
@@ -131,8 +143,8 @@
                     </a>
                 </div>
             </div>
-        </section>
-
+       
+        </section>  -->
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
             <h2 class="section__title">Saiba Mais</h2>
@@ -409,84 +421,100 @@
                 </div>
             </div>
         </section>
-
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
-
-
-        </section>
-
         <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Trabalhos Recentes</span>
+    </section>
 
-            <div class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--==================== PORTFOLIO 1====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="img/portfolio1.jpg" alt="" class="porfolio__img">
+    <!--==================== PORTFOLIO ====================-->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Trabalhos Recentes</span>
 
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Challenge Codificador Alura-One</h3>
+        <div class="portfolio__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== PORTFOLIO 1====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="img/portfolio1.jpg" alt="" class="porfolio__img">
 
-                            <p class="portfolio__description">Coficador de Mensagem para voce brincar com seus amigos</p>
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Challenge Codificador Alura-One</h3>
 
-                            <a href="https://senpaidati.github.io/site-challenge/" class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
+                        <p class="portfolio__description">Coficador de Mensagem para voce brincar com seus amigos</p>
 
+                        <a href="https://senpaidati.github.io/site-challenge/" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
                     </div>
-                    <!--==================== PORTFOLIO 2 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="img/portfolio2.jpg" alt="" class="porfolio__img">
 
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Jogo da forca</h3>
+                </div>
 
-                            <p class="portfolio__description">lorem ipsum lore ipsum lore impsum</p>
+                <!--==================== PORTFOLIO 2 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="img/portfolio2.jpg" alt="" class="porfolio__img">
 
-                            <a href="" class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Jogo da forca</h3>
 
+                        <p class="portfolio__description">lorem ipsum lore ipsum lore impsum</p>
+
+                        <a href="" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
                     </div>
-                    <!--==================== PORTFOLIO 3 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="img/portfolio3.jpg" alt="" class="porfolio__img">
 
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">decodificador</h3>
+                </div>
 
-                            <p class="portfolio__description">lorem ipsum lore ipsum lore impsum</p>
+                <!--==================== PORTFOLIO 3 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="img/a234.PNG" alt="" class="porfolio__img">
 
-                            <a href="" class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Jogo da forca</h3>
+
+                        <p class="portfolio__description">lorem ipsum lore ipsum lore impsum</p>
+
+                        <a href="" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+                
+                <!--==================== PORTFOLIO 4 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="img/portfolio3.jpg" alt="" class="porfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">decodificador</h3>
+
+                        <p class="portfolio__description">lorem ipsum lore ipsum lore impsum</p>
+
+                        <a href="" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
                     </div>
                 </div>
-                <!--add Arrows-->
-
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-
-                <!--add pagination-->
-
-                <div class="swiper-pagination">
-
-                </div>
+                
             </div>
-        </section>
+            <!--add Arrows-->
+
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!--add pagination-->
+
+            <div class="swiper-pagination">
+
+            </div>
+        </div>
+    </section>
 
         <!--==================== PROJECT IN MIND ====================-->
         <section class="project section">
@@ -506,91 +534,6 @@
             </div>
 
         </section>
-
-        <!--==================== TESTIMONIAL ====================-->
-        <section class="testimonial section">
-            <h2 class="section__title">testimonial</h2>
-            <span class="section__subtitle">Meus clientes</span>
-
-            <div class="testimonial__container container swiper-container">
-
-                <div class="swiper-wrapper">
-                    <!--==================== TESTIMONIAL 1 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="img/testimonial1.jpg" alt="" class="testimonial__img">
-
-                                <div>
-                                    <h3 class="testimonial__name">sara Smith</h3>
-                                    <span class="testimonial__client">Cliente</span>
-                                </div>
-                            </div>
-                            <div>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-
-                            </div>
-                        </div>
-
-                        <p class="testimonial__description">lorem ipsum lore ipsum lore ipsum lore impsum</p>
-                    </div>
-                    <!--==================== TESTIMONIAL 2 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="img/testimonial2.jpg" alt="" class="testimonial__img">
-
-                                <div>
-                                    <h3 class="testimonial__name">sara Smith</h3>
-                                </div>
-                            </div>
-                            <div>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-
-                            </div>
-                        </div>
-                        <p class="testimonial__description">lorem ipsum lore ipsum lore ipsum lore impsum</p>
-                    </div>
-
-                    <!--==================== TESTIMONIAL 3 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="img/testimonial3.jpg" alt="" class="testimonial__img">
-
-                                <div>
-                                    <h3 class="testimonial__name">sara Smith</h3>
-                                </div>
-                            </div>
-                            <div>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-
-                            </div>
-                        </div>
-                        <p class="testimonial__description">lorem ipsum lore ipsum lore ipsum lore impsum</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <!--adcionando a paginação no site -->
-                <div class="swiper-pagination swiper-pagination-testimonial">
-
-                </div>
-            </div>
-        </section>
-
         <!--==================== Contato ====================-->
         <section class="contact section" id="contact">
             <h2 class="section__title">Contato</h2>
